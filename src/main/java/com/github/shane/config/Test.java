@@ -16,9 +16,7 @@ import javax.annotation.PostConstruct;
  * @version v1.0.0
  * @date 2019/05/27 11:29
  */
-@Component
 public class Test {
-    @Value("${test.key}")
     private String testKey;
 
     public Test() {
@@ -26,11 +24,6 @@ public class Test {
 
     public Test(String testKey) {
         this.testKey = testKey;
-    }
-
-    @Bean
-    public static PropertySourcesPlaceholderConfigurer propertySourcesPlaceholderConfigurer(){
-        return new PropertySourcesPlaceholderConfigurer();
     }
 
     public String getTestKey() {
