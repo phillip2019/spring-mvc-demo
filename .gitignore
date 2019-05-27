@@ -1,0 +1,19 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+.idea
+*.iml
+.idea/*
+target
+nohup.out
+output
+deploy
+deploy.tar.gz
+.DS_Store
+~/
+build/dev.properties
+
+*/.project
+*/.settings
+.project
+.settings
+
