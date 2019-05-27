@@ -2,7 +2,7 @@
 
 .idea
 *.iml
-.idea/*
+.idea/**
 target
 nohup.out
 output
